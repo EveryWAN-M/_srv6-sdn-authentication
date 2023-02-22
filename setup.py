@@ -42,10 +42,10 @@ setup(
     install_requires=[
         'setuptools',
         'netifaces>=0.10.9',
-        'grpcio>=1.19.0',
-        'grpcio-tools>=1.19.0',
+        'grpcio==1.41.0',
+        'grpcio-tools==1.41.0',
         'python-pytun>=2.3.0',
-        'tornado>=6.0.3',
+        'tornado==6.2b1',
         'websocket-client>=0.56.0',
         'ping3>=2.4.0',
         'pynat',
